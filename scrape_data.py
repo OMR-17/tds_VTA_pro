@@ -3,7 +3,8 @@ import json
 import os
 from datetime import datetime
 from github import Github
-
+#Point to be noted we need to use cookies from Discourse_URL 
+#Cookies are not included in script, get the fresh cookies from site(main site does not go to course tds section) 
 # Configuration
 DISCOURSE_URL = "https://discourse.onlinedegree.iitm.ac.in"
 GITHUB_REPO = "sanand0/tools-in-data-science-public"
